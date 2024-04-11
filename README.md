@@ -1,5 +1,18 @@
 Let's learn Playwright together! 🚀
 
+# Table of Contents
+
+- [What is Playwright?](#what-is-playwright)
+- [Why Playwright?](#why-playwright)
+- [How to Install Playwright?](#how-to-install-playwright)
+- [How to install Node.js?](#how-to-install-nodejs)
+- [How to install npm?](#how-to-install-npm)
+- [How to install yarn?](#how-to-install-yarn)
+- [Project Structure](#project-structure)
+- [VS Code Extensions Recommended](#vs-code-extensions-recommended)
+- [Essential Command Line Options](#essential-command-line-options)
+- [What's Next?](#whats-next)
+
 ***
 
 ## What is Playwright?
