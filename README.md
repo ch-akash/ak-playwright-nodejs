@@ -132,6 +132,4 @@ Here is a table with commands and their descriptions:
 
 - Read Playwright official documentation [here](https://playwright.dev/docs/intro).
 - Access Playwright Community Pages [here](https://playwright.dev/community/welcome).
-- Join Discord [Server](https://aka.ms/playwright/discord).
-- Open Feature Requests [here](https://github.com/microsoft/playwright/issues/new/choose).
-- Bug Reports [here](https://github.com/microsoft/playwright/issues/new/choose).
+- Join the Discord Server: [Code with Akash](https://discord.gg/6TTXCheZ8u)
