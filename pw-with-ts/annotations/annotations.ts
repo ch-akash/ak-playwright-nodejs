@@ -1,11 +1,20 @@
 export enum AnnotationsType {
-  Device = "device",
-  Desktop = "desktop",
-  Flaky = "flaky",
+  DEVICE = "device",
+  DESKTOP = "desktop",
+  FLAKY = "flaky",
 }
 
 export enum AnnotationDescription {
-  Device = "This is a device specific test",
-  Desktop = "This is a desktop specific test",
-  Flaky = "This is a flaky testƒ",
+  DEVICE = "This is a device specific test",
+  DESKTOP = "This is a desktop specific test",
+  FLAKY = "This is a flaky testƒ",
 }
+
+//Tuple type annotations
+
+export const Annotations = [
+  {
+    type: "device",
+    desc: "This is a device specific test",
+  },
+];

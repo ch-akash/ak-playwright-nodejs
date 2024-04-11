@@ -10,8 +10,8 @@ test(
   {
     tag: "@device",
     annotation: {
-      type: AnnotationsType.Device,
-      description: AnnotationDescription.Device,
+      type: AnnotationsType.DEVICE,
+      description: AnnotationDescription.DEVICE,
     },
   },
   async ({ page }) => {
@@ -27,8 +27,8 @@ test(
   {
     tag: "@device",
     annotation: {
-      type: AnnotationsType.Device,
-      description: AnnotationDescription.Device,
+      type: AnnotationsType.DEVICE,
+      description: AnnotationDescription.DEVICE,
     },
   },
   async ({ page }) => {
