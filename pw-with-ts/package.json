@@ -1,0 +1,22 @@
+{
+  "name": "pw-with-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.28",
+    "lighthouse": "^11.7.0",
+    "monocart-reporter": "^2.4.5",
+    "playwright": "^1.42.1"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.5",
+    "dotenv": "^16.4.5",
+    "sprintf-js": "^1.1.3"
+  }
+}

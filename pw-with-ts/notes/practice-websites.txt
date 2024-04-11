@@ -1,0 +1,27 @@
+Handy Websites for Practise: 
+
+For Most common scenarios - https://the-internet.herokuapp.com
+Single, Multiple Elements - https://ultimateqa.com/complicated-page
+Practice Interactions with Elements - https://ultimateqa.com/simple-html-elements-for-automation/
+Sample Search Bar - https://gh-users-search.netlify.app
+User Login Dependent Website - https://www.saucedemo.com
+Select, Dropdown, Checkboxes, Radio button - http://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html
+Actions - http://webdriveruniversity.com/Actions/index.html
+Text Inputs - https://webdriveruniversity.com/Contact-Us/contactus.html
+File Download - https://the-internet.herokuapp.com/download
+File Upload - https://webdriveruniversity.com/File-Upload/index.html
+Drag and Drop - https://webdriveruniversity.com/Actions/index.html
+Popup and Alerts - https://webdriveruniversity.com/Popup-Alerts/index.html
+Window Operations - https://practice-automation.com/window-operations/
+Tables 1 - https://practice-automation.com/tables/
+Tables 2 - https://letcode.in/advancedtable
+
+All the other practice resources for API and UI - https://github.com/BMayhew/awesome-sites-to-test-on 
+
+Websites For assignments:
+
+1. Bstack Demo: https://www.bstackdemo.com
+2. Form Fields and Dialog: https://practice-automation.com/form-fields/
+3. iFrame Practice: https://practice-automation.com/iframes/
+4. Pop-up Practice: https://practice-automation.com/popups/
+5. List of Elements: 

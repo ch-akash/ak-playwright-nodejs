@@ -1,0 +1,20 @@
+<ul>
+    <li>
+      <h3>Product 1</h3>
+      <button>Add to cart</button>
+    </li>
+    <li>
+      <h3>Product 2</h3>
+      <button>Add to cart</button>
+    </li>
+    <li>
+        <h3>Product 3</h3>
+        <button>Add to cart</button>
+      </li>
+  </ul>
+
+  await page
+    .getByRole('listitem')
+    .filter({ has: page.getByRole('heading', { name: 'Product 2' }) })
+    .getByRole('button', { name: 'Add to cart' })
+    .click();

@@ -1,0 +1,1 @@
+Windows ENV Vars: https://docs.oracle.com/cd/E83411_01/OREAD/creating-and-modifying-environment-variables-on-windows.htm#OREAD158
