@@ -1,6 +1,6 @@
-Let's learn Playwright together! 🚀
+# Let's learn Playwright together! 🚀
 
-# Table of Contents
+## Table of Contents
 
 - [What is Playwright?](#what-is-playwright)
 - [Why Playwright?](#why-playwright)
@@ -70,11 +70,11 @@ yarn create playwright
 
 ## How to install Node.js?
 
-You can install Node.js from the official website: https://nodejs.org/
+You can install Node.js from the official website: <https://nodejs.org/>
 
 ## How to install npm?
 
-npm is included with Node.js. You can install Node.js from the official website: https://nodejs.org/
+npm is included with Node.js. You can install Node.js from the official website: <https://nodejs.org/>
 
 ## How to install yarn?
 
