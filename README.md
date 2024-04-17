@@ -1,17 +1,21 @@
 # Let's learn Playwright together! 🚀
 
-## Table of Contents
 
-- [What is Playwright?](#what-is-playwright)
-- [Why Playwright?](#why-playwright)
-- [How to Install Playwright?](#how-to-install-playwright)
-- [How to install Node.js?](#how-to-install-nodejs)
-- [How to install npm?](#how-to-install-npm)
-- [How to install yarn?](#how-to-install-yarn)
-- [Project Structure](#project-structure)
-- [VS Code Extensions Recommended](#vs-code-extensions-recommended)
-- [Essential Command Line Options](#essential-command-line-options)
-- [What's Next?](#whats-next)
+![Playwright](./assets/pw-logo.png)
+
+>
+>
+> ## Table of Contents
+>
+> - [What is Playwright?](#what-is-playwright)
+> - [Why Playwright?](#why-playwright)
+> - [Course Breakdown - Structure of this course](#course-breakdown---structure-of-this-course)
+> - [How to Install Playwright?](#how-to-install-playwright)
+> - [How to install Node.js?](#how-to-install-nodejs)
+> - [How to install npm?](#how-to-install-npm)
+> - [How to install yarn?](#how-to-install-yarn)
+> - [Connect and Collaborate](#connect-and-collaborate)
+>
 
 ***
 
@@ -53,6 +57,27 @@ cross-browser web automation that is ever-green, capable, reliable, and fast.
 - **Automation**: Playwright supports automating web applications.
 - **Code Generation**: Playwright supports generating code for automation. Record and replay.🚀
 
+## Course Breakdown - Structure of this course
+
+***
+This course covers Playwright for UI and API automation. We have also prepared a side-by-side real framework project.
+
+> Install any Markdown formatter in ide for better Markdown file previews.
+> **Open these Markdown files in preview mode if your IDE by default opens them in edit mode.**
+
+Navigate to the following directories to access the content:
+
+- [UI Automation](./pw-with-ts)
+- [API Automation](./pw-api-tests)
+- [UI Automation Framework Project](./pw-ui-framework)
+- [Theoretical Notes - Markdown files](./theory-notes)
+  - [Playwright and NPM Commands](theory-notes/playwright-cli/commands.md)
+  - [VS Code Setup](theory-notes/ide-setup/vs-code-setup.md)
+  - [Configuration](theory-notes/playwright-config/config-options.md)
+  - [Browsers](./theory-notes/browsers/browsers.md)
+  - [CI/CD](./theory-notes/ci-cd/ci-cd.md)
+  - [Page Object Model](./theory-notes/page-object-model/pom.md)
+
 ## How to Install Playwright?
 
 ***
@@ -84,52 +109,10 @@ You can install yarn using npm. Here's how you can install yarn using npm:
 npm install -g yarn
 ```
 
-## Project Structure
-
-***
-This project contains UI and API test examples(each have own project folder which can be imported separately in VS Code)
-using Playwright. The videos are from each lecture in the course.
-
-## VS Code Extensions Recommended
-
-***
-
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Code linter
-- [Playwright Test for VS Code(Official)](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) -
-  Extension to integrate Playwright with VS Code.
-- [Playwright Test Snippets](https://marketplace.visualstudio.com/items?itemName=mskelton.playwright-test-snippets) -
-  Playwright test snippets for generating snippets with shortcuts.
-- [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-- [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
-
-## Essential Command Line Options
-
-***
-> Read More about Playwright CLI options [here](https://playwright.dev/docs/test-cli).
->
-> Pro Tip: You can use `--help` with any command to get more information. For example, `npm playwright test --help` will
-> generate a list of options.
-
-Here is a table with commands and their descriptions:
-
-| Command                                                             | Description                           |
-|---------------------------------------------------------------------|---------------------------------------|
-| `npm playwright test`                                               | Run all the tests                     |
-| `npm playwright test --headed`                                      | Run tests in headful mode             |
-| `npm playwright test tests/example.spec.ts`                         | Run a specific test file              |
-| `npm playwright test tests/example.spec.ts -g "Test Name or regex"` | Run a particular test in a file       |
-| `npm playwright test tests/example.spec.ts -tag "@smoke"`           | Run tests with tags                   |
-| `npm playwright test --workers 2`                                   | Define workers for parallel execution |
-| `npm playwright test --retries 2`                                   | Define retries for flaky tests        |
-| `npm playwright test tests/example.spec.ts tests/example2.spec.ts`  | Run multiple files                    |
-| `npm playwright test --timeout 30000`                               | Define timeout in ms for test         |
-| `npm playwright test -c my-pw.config.ts`                            | Use a custom configuration file       |
-
-***
-
-## What's Next?
+## Connect and Collaborate
 
 - Read Playwright official documentation [here](https://playwright.dev/docs/intro).
 - Access Playwright Community Pages [here](https://playwright.dev/community/welcome).
-- Join the Discord Server: [Code with Akash](https://discord.gg/6TTXCheZ8u)
+- Join the Discord Server for this course: [Code with Akash](https://discord.gg/6TTXCheZ8u)
+
+***

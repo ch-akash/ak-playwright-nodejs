@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { LoginPage } from "../pages/loginPage";
+import { LoginPage } from "../pages/login-page";
 
 test("Handle Dialogs", async ({ page }) => {
   //Default behaviour is to auto-dismiss the dialog

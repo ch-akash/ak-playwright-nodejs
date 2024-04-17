@@ -1,6 +1,6 @@
 import { Page } from "@playwright/test";
-import { ProductPage } from "./productsPage";
-import { LoginPage } from "./loginPage";
+import { ProductPage } from "./products-page";
+import { LoginPage } from "./login-page";
 
 export class BasePage {
   readonly productPage: ProductPage;
