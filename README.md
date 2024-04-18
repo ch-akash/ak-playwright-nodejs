@@ -1,6 +1,5 @@
 # Let's learn Playwright together! 🚀
 
-
 ![Playwright](./assets/pw-logo.png)
 
 >
@@ -62,8 +61,8 @@ cross-browser web automation that is ever-green, capable, reliable, and fast.
 ***
 This course covers Playwright for UI and API automation. We have also prepared a side-by-side real framework project.
 
-> Install any Markdown formatter in ide for better Markdown file previews.
 > **Open these Markdown files in preview mode if your IDE by default opens them in edit mode.**
+> In VS Code, right click on the MD file and choose 'Open Preview'.
 
 Navigate to the following directories to access the content:
 
@@ -71,12 +70,24 @@ Navigate to the following directories to access the content:
 - [API Automation](./pw-api-tests)
 - [UI Automation Framework Project](./pw-ui-framework)
 - [Theoretical Notes - Markdown files](./theory-notes)
-  - [Playwright and NPM Commands](theory-notes/playwright-cli/commands.md)
-  - [VS Code Setup](theory-notes/ide-setup/vs-code-setup.md)
-  - [Configuration](theory-notes/playwright-config/config-options.md)
-  - [Browsers](./theory-notes/browsers/browsers.md)
-  - [CI/CD](./theory-notes/ci-cd/ci-cd.md)
-  - [Page Object Model](./theory-notes/page-object-model/pom.md)
+  - Playwright and NPM Commands
+    - [Local File](theory-notes/playwright-cli/commands.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/playwright-cli/commands.md)
+  - VS Code Setup
+    - [Local File](theory-notes/ide-setup/vs-code-setup.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/ide-setup/vs-code-setup.md)
+  - Configuration
+    - [Local File](theory-notes/playwright-config/config-options.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/playwright-config/config-options.md)
+  - Browsers
+    - [Local File](./theory-notes/browsers/browsers.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/browsers/browsers.md)
+  - CI/CD
+    - [Local File](./theory-notes/ci-cd/ci-cd.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/ci-cd/ci-cd.md)
+  - Page Object Model
+    - [Local File](./theory-notes/page-object-model/pom.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/page-object-model/pom.md)
 
 ## How to Install Playwright?
 
