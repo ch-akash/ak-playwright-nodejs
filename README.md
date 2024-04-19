@@ -62,7 +62,7 @@ cross-browser web automation that is ever-green, capable, reliable, and fast.
 This course covers Playwright for UI and API automation. We have also prepared a side-by-side real framework project.
 
 > **Open these Markdown files in preview mode if your IDE by default opens them in edit mode.**
-> In VS Code, right click on the MD file and choose 'Open Preview'.
+> In VS Code, right-click on the MD file and choose 'Open Preview'.
 
 Navigate to the following directories to access the content:
 
