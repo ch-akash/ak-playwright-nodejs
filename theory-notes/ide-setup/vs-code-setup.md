@@ -9,6 +9,8 @@ development experience by installing extensions.
 
 Here are some essential VS Code extensions for Playwright:
 
+## Essential Extensions
+
 ***
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
@@ -19,5 +21,16 @@ Here are some essential VS Code extensions for Playwright:
   Playwright test snippets for generating snippets with shortcuts.
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 - [TypeScript Toolbox](https://marketplace.visualstudio.com/items?itemName=DSKWRK.vscode-generate-getter-setter)
+- [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) - GitHub Actions
+  support for VS Code.
+
+## VS Code Keyboards Shortcuts
+
+***
+
+- MacOS Cheat
+  Sheet: [VS Code Keyboard Shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- Windows Cheat
+  Sheet: [VS Code Keyboard Shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ***

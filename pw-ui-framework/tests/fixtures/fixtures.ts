@@ -1,17 +1,24 @@
-import { test as baseTest, expect } from "playwright/test";
-import { BasePage } from "../../src/pages/base-page";
+import { test as baseTest, expect, APIResponse } from "playwright/test";
+import { BasePage } from "../../src/pages/base-page.ts";
+import { ApiConstants } from "../../src/constants/globals.ts";
+import { faker } from "@faker-js/faker/locale/en_IN";
 
 const authFile = "playwright/.auth/user.json";
 
-//Non logged in test
+/**
+ * This fixture can be used if test requires a base page with no user logged in.
+ */
 export const test = baseTest.extend<{ basePage: BasePage }>({
   basePage: async ({ page }, use) => {
     console.log("Initialising BasePage");
+    await page.goto("/");
     await use(new BasePage(page));
   },
 });
 
-//This fixture can be used if test requires user to be logged in
+/**
+ * This fixture can be used if test requires a logged-in user.
+ */
 export const loggedInTest = baseTest.extend<{ basePage: BasePage }>({
   basePage: async ({ page }, use) => {
     console.log("Initialising BasePage");
@@ -25,8 +32,53 @@ export const loggedInTest = baseTest.extend<{ basePage: BasePage }>({
       username
     );
 
-    //The user is logged in. Save this session data to the file
-    await page.context().storageState({ path: authFile });
+    // The user is logged in. Save this session data to the file.
+    // For the tests that require logged across test classes, we can
+    // use storageState. Using storage state will log in ALL the tests.
+    // Even if they do not need to be logged in.
+    // await page.context().storageState({ path: authFile });
+
+    await use(new BasePage(page));
+  },
+});
+
+/**
+ * This fixture can be used if test requires a new user to be created and logged in.
+ * See usage in "specs/e2e-order-flow.spec"
+ */
+export const newUserTest = baseTest.extend<{ basePage: BasePage }>({
+  basePage: async ({ page, baseURL }, use) => {
+    console.log("Initialising BasePage");
+    const basePage = new BasePage(page);
+
+    const passwordForNewUser = faker.internet.password({
+      length: 20,
+      prefix: "@",
+    });
+    const newUserName = faker.internet.userName();
+    //Create a new user using API.
+    const createUserApiResponse: APIResponse = await page.request.post(
+      `${baseURL}${ApiConstants.CREATE_USER_API_PATH}`,
+      {
+        data: {
+          firstname: faker.person.firstName(),
+          lastname: faker.person.lastName(),
+          username: newUserName,
+          password: passwordForNewUser,
+          confirmPassword: passwordForNewUser,
+          gender: "Male",
+        },
+      }
+    );
+
+    await expect(createUserApiResponse).toBeOK();
+
+    console.log("Preparing storage state for new test user");
+    await page.goto("/login");
+    await basePage.loginPage.login(newUserName, passwordForNewUser);
+    await expect(await basePage.searchPage.getHeaderLocator()).toContainText(
+      newUserName
+    );
 
     await use(new BasePage(page));
   },

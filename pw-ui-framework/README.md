@@ -6,9 +6,10 @@
 * [Folder Structure](#folder-structure)
 * [Installation](#installation)
 * [Run the Tests](#run-the-tests)
+* [Sample Test Cases Covered](#run-the-tests)
 * [Configuration](#configuration)
 * [Design Philosophy](#design-philosophy)
-* [Best Practices and Guidelines](#best-practices-and-guidelines)
+* [Coding Principles](#coding-principles)
 * [Contributing](#contributing)
 * [Connect with Me](#connect-with-me)
 
@@ -26,7 +27,6 @@ The project architecture is based on the Page Object Model (POM) design pattern.
 The project is structured as follows:
 
 ```plaintext
-
 
 ├── README.md
 ├── package.json
@@ -69,13 +69,27 @@ The project is structured as follows:
 2. Run the tests in headful mode by running `npx playwright test --headed`
 3. Run a specific test by running `npx playwright test tests/specs/e2e.spec.ts`
 
+## Test Cases Covered in Framework
+
+***
+
+1. E2E Place order for a new user(create new user for each test using fixtures).
+2. E2E Place order and fetch order ID from browser API calls.
+3. Apply price filter and validate results(non-logged in user).
+4. Search a book for logged-in user and validate auto-suggestions.
+5. Search books and keywords. Take test data from CSV.
+6. Use mocked data for checking no results errors on search page.
+7. Visual Test for test 6 and book category element.
+8. Website Performance audit tests
+   with [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/performance/performance-scoring).
+
 ## Configuration
 
 ***
 
 The project uses Playwright's configuration file. The configuration file is located at `playwright.config.ts`.
 
-The project is using an open test practice website:<https://bookcart.azurewebsites.net/>
+> The project is using an open test practice website: 📚[Book Store](https://bookcart.azurewebsites.net/)
 
 ## Design Philosophy
 
@@ -96,7 +110,7 @@ The project is designed with the following principles in mind:
    number of pages, tests, and test suites. The project is designed to be able to handle a large number of users
    and data.
 
-## Best Practices and Guidelines
+## Coding Principles
 
 ***
 

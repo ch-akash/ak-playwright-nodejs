@@ -10,3 +10,7 @@ Features required to be in framework:
 4. CI - Jenkins, Github Actions as well Docker
 5. Fixtures - Classes to maintain fixtures for auto-init page Objects
 6. Enums - To store tags and annotations which are predefined and reusable. 
+
+
+Note: If all the tests need logged-in state - Use storage state.
+Otherwise, use custom fixtures for login and non-login flows.

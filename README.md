@@ -69,6 +69,7 @@ Navigate to the following directories to access the content:
 - [UI Automation](./pw-with-ts)
 - [API Automation](./pw-api-tests)
 - [UI Automation Framework Project](./pw-ui-framework)
+- [UI Automation Framework Twin Project for CI/CD - GitHub Link](https://github.com/ch-akash/pw-framework-with-ci)
 - [Theoretical Notes - Markdown files](./theory-notes)
   - Playwright and NPM Commands
     - [Local File](theory-notes/playwright-cli/commands.md)
@@ -83,11 +84,14 @@ Navigate to the following directories to access the content:
     - [Local File](./theory-notes/browsers/browsers.md)
     - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/browsers/browsers.md)
   - CI/CD
-    - [Local File](./theory-notes/ci-cd/ci-cd.md)
+    - [Local File](./theory-notes/ci-cd/jenkins)
     - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/ci-cd/ci-cd.md)
   - Page Object Model
     - [Local File](./theory-notes/page-object-model/pom.md)
     - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/page-object-model/pom.md)
+  - Google Lighthouse Integration
+    - [Local File](./theory-notes/lighthouse/lighthouse.md)
+    - [View on GitHub](https://github.com/ch-akash/ak-playwright-nodejs/blob/master/theory-notes/lighthouse/lighthouse.md)
 
 ## How to Install Playwright?
 
