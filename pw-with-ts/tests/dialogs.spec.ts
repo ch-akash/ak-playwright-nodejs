@@ -17,9 +17,3 @@ test("Handle Dialogs", async ({ page }) => {
   //Second dialog will be accepted(clicked option OK)
   await page.locator("#button4").getByText("CLICK ME!").click();
 });
-
-test("login", async ({ page }) => {
-  await page.goto("https://www.bstackdemo.com/signin?offers=true");
-  const loginPage = new LoginPage(page);
-  await loginPage.login("demo", "demo");
-});
